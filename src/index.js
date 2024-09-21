@@ -23,37 +23,37 @@ const products = [
     id: 1,
     name: "Apple Watch Series 10",
     price: 400,
-    img: "../images/watch-card-40-s10-202409.jpg",
+    img: "./images/watch-card-40-s10-202409.jpg",
   },
   {
     id: 2,
     name: "Apple Watch Ultra 2",
     price: 800,
-    img: "../images/watch-card-40-ultra2-202409.jpg",
+    img: "./images/watch-card-40-ultra2-202409.jpg",
   },
   {
     id: 3,
     name: "Apple Watch Hermès Ultra 2",
     price: 250,
-    img: "../images/watch-card-40-se-202409.jpg",
+    img: "./images/watch-card-40-se-202409.jpg",
   },
   {
     id: 4,
     name: "Apple Watch Hermès Ultra 2",
     price: 250,
-    img: "../images/watch-card-40-se-202409.jpg",
+    img: "./images/watch-card-40-se-202409.jpg",
   },
   {
     id: 5,
      name: "Apple Watch Hermès Ultra 2",
     price: 500,
-    img: "../images/watch-card-40-hermes-ultra-202409.jpg",
+    img: "./images/watch-card-40-hermes-ultra-202409.jpg",
   },
   {
     id: 6,
     name: "Apple Watch Hermès Ultra 2",
     price: 250,
-    img: "../images/watch-card-40-se-202409.jpg",
+    img: "./images/watch-card-40-se-202409.jpg",
   },
 ];
 

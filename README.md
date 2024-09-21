@@ -2,9 +2,7 @@
   <div style="flex: 1 1 300px; max-width: 300px; margin: 10px;">
     <img style="width: 100%; " src="https://i.postimg.cc/9fyq66tG/Screenshot-2024-09-21-173103.png" />
   </div>
-  <div style="flex: 1 1 300px; max-width: 300px; margin: 10px;">
-    <img style="width: 100%; " src="https://i.postimg.cc/fLZ0D8B1/Screenshot-2024-09-21-173128.png" />
-  </div>
+
 </div>
 
 

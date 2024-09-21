@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Home</title>
+  </head>
+  <body >
+    <nav
+      class="flex flex-row w-full justify-between items-center gap-60 p-10 shadow-md"
+    >
+      <h1 class="text-2xl font-bold">Online Store</h1>
+      <div class="w-8 h-8 flex justify-center items-center" id="cartButton">
+        <img
+          class="w-[20px] h-[20px] object-contain"
+          src="../images/grocery-store.png"
+          alt=""
+        />
+      </div>
+    </nav>
+    <section class="container m-auto w-full p-10">
+      <ul
+       id="list" class="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 max-sm:grid-cols-1 sm:gap-6 gap-16 list-none"
+      >
+     
+      </ul>
+    </section>
+
+   
+    <div
+  id="cart"
+  class="cart bg-slate-400/70 w-[500px] h-lvh fixed left-[100%] top-0 transition-all transition-duration: 700ms overflow-y-scroll flex flex-col"
+>
+  <h1 class="m-5 text-2xl font-bold bg-white border rounded-md p-5 text-center opacity-100">Cart</h1>
+  
+  <ul class="list-none flex-grow" id="cartList">
+    <!-- Cart items will be added here -->
+  </ul>
+
+  <button
+    id="closeCart"
+    class="w-[90%] mx-auto mb-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+  >
+    Continue Shopping
+  </button>
+</div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
